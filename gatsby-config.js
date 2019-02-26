@@ -76,7 +76,7 @@ module.exports = {
                   { "itunes:explicit": "yes" },
                   { "itunes:image": {
                     _attr: {
-                      href: "https://outoffocusshow.com/logo.jpg"
+                      href: "https://outoffocusshow.com/podcast_art.jpeg"
                     }
                   }},
                   { "itunes:category": [
