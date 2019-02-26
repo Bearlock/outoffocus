@@ -3,6 +3,7 @@ episode: 1
 episodeString: "001 - "
 episodeType: "full"
 title: "Full Time Lover, Part Time Friend"
+subtitle: "The one where we introduce ourselves."
 date: "2019-02-24"
 audio: "https://s3.us-east-2.amazonaws.com/outoffocusshow/episodes/001_full-time-lover-part-time-friend.mp3"
 bytes: 64419213
@@ -11,9 +12,7 @@ duration: "01:07:06"
 draft: false
 ---
 
-Hello for the first time and welcome to the first episode of our show! In our inaugural
-episode we talk a bit about us; who we are, where we're from, and some of the
-"why" in regards to the podcast.
+Hello for the first time and welcome to the first episode of our show! In our inaugural episode we talk a bit about us; who we are, where we're from, and some of the _why_ in regards to the podcast.
 
 Some of the things we talk about include:
 - Software Engineering
