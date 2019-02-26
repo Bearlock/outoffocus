@@ -3,12 +3,6 @@ import { css, Global } from "@emotion/core";
 import { Link } from "gatsby";
 import { FaTwitter, FaInstagram, FaDiscord } from "react-icons/fa";
 
-// const ListLink = props => (
-//   <li style={{ display: "inline-block", marginRight: "1rem" }}>
-//     <Link to={props.to} style={{ color: "rebeccapurple", textDecoration: "none" }}>{props.children}</Link>
-//   </li>
-// );
-
 const ListLink = props => (
   <li css={css`display: inline-block; margin-right: 1rem;`}>
     <Link to={props.to}>{props.children}</Link>

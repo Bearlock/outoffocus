@@ -103,7 +103,7 @@ module.exports = {
                 allMarkdownRemark(
                   limit: 1000,
                   sort: { order: DESC, fields: [frontmatter___date] },
-                  filter: {frontmatter: { draft: { ne: true } }}
+                  filter: {frontmatter: { draft: { ne: true } audio: { ne: null } }}
                 ) {
                   edges {
                     node {
@@ -122,7 +122,7 @@ module.exports = {
                 }
               }
             `,
-            output: "/rss.xml",
+            output: "/podcast-feed.xml",
             title: "Gatsby RSS Feed",
           },
         ],

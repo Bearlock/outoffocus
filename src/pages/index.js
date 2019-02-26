@@ -20,7 +20,7 @@ export default ({ data }) => {
         Hey again.
         </h3>
         <h4 css={css`text-align: center;`}>
-          Check out out the latest
+          Check out the latest
           <Link to={latest.fields.slug}>
             : {latest.frontmatter.episodeString}{latest.frontmatter.title}
           </Link>
