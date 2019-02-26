@@ -22,7 +22,7 @@ export default ({ data }) => {
         <h4 css={css`text-align: center;`}>
           Check out out the latest
           <Link to={latest.fields.slug}>
-            : {latest.frontmatter.title}
+            : {latest.frontmatter.episodeString}{latest.frontmatter.title}
           </Link>
         </h4>
       </div>
@@ -39,6 +39,7 @@ export const query = graphql`
           frontmatter {
             title
             date(formatString: "DD MMMM, YYYY")
+            episodeString
           }
           fields {
             slug
