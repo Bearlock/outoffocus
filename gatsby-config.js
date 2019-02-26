@@ -62,7 +62,7 @@ module.exports = {
                     { "itunes:duration": edge.node.frontmatter.duration },
                     { "itunes:image": {
                       _attr: {
-                        href: "https://outoffocusshow.com/podcast_art.jpeg"
+                        href: "https://outoffocusshow.com/podcast_art.jpg"
                       },
                     }},
                     { "itunes:author": site.siteMetadata.author },
