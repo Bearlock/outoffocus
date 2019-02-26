@@ -57,7 +57,12 @@ module.exports = {
                     { "itunes:title": edge.node.frontmatter.title },
                     { "itunes:episode": edge.node.frontmatter.episode },
                     { "itunes:episodeType": edge.node.frontmatter.episodeType },
-                    { "itunes:duration": edge.node.frontmatter.duration }
+                    { "itunes:duration": edge.node.frontmatter.duration },
+                    { "itunes:image": {
+                      _attr: {
+                        href: "https://outoffocusshow.com/podcast_art.jpeg"
+                      }
+                    }},
                   ],
                 })
               })
