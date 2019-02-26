@@ -47,6 +47,11 @@ module.exports = {
                   date: edge.node.frontmatter.date,
                   url: site.siteMetadata.siteUrl + edge.node.fields.slug,
                   guid: site.siteMetadata.siteUrl + edge.node.fields.slug,
+                  enclosure: {
+                    url: edge.node.frontmatter.audio,
+                    size: edge.node.frontmatter.bytes,
+                    type: edge.node.frontmatter.mime
+                  },
                   custom_elements: [
                     { "content:encoded": edge.node.html },
                     { "itunes:title": edge.node.frontmatter.title },
@@ -80,21 +85,21 @@ module.exports = {
                       href: "https://outoffocusshow.com/podcast_art.jpeg"
                     }
                   }},
-                  { "itunes:category": [
-                    {_attr: {
+                  { "itunes:category": {
+                    _attr: {
                       text: "Comedy"
-                    }},
-                    { "itunes:category": {
-                      _attr: {
-                        text: "Careers"
-                      }
-                    }},
-                    { "itunes:category": {
-                      _attr: {
-                        text: "Hobbies"
-                      }
-                    }}
-                  ]},
+                    }
+                  }},
+                  { "itunes:category": {
+                    _attr: {
+                      text: "Careers"
+                    }
+                  }},
+                  { "itunes:category": {
+                    _attr: {
+                      text: "Hobbies"
+                    }
+                  }}
                 ],
               }
             },
@@ -116,6 +121,9 @@ module.exports = {
                         episode
                         episodeType
                         duration
+                        bytes
+                        mime
+                        audio
                       }
                     }
                   }

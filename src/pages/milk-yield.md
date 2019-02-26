@@ -5,6 +5,8 @@ episodeType: "full"
 title: "Milk Yield"
 date: "2019-02-25"
 audio: "https://s3.us-east-2.amazonaws.com/outoffocusshow/episodes/002_milk-yield.mp3"
+bytes: 61278249
+mime: "audio/mpeg"
 duration: "01:04:49"
 draft: false
 ---
