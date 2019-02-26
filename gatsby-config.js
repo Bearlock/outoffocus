@@ -3,7 +3,7 @@ module.exports = {
     title: "Out of Focus",
     siteUrl: "https://outoffocusshow.com",
     description: "A podcast about nothing and everything exploring clarity through obscurity",
-    author: "Erick Diaz & Nick Farr",
+    author: "Out of Focus",
     summary: "Out of Focus is a podcast about nothing and everything. Twice a week we'll explore whatever topic strikes our mood for the day. Join us as we futilely yell into the ether. Found wherever fine podcasts are sold"
   },
   plugins: [
@@ -61,8 +61,9 @@ module.exports = {
                     { "itunes:image": {
                       _attr: {
                         href: "https://outoffocusshow.com/podcast_art.jpeg"
-                      }
+                      },
                     }},
+                    { "itunes:author": siteMetadata.author },
                   ],
                 })
               })
