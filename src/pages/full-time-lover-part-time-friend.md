@@ -5,6 +5,7 @@ episodeType: "full"
 title: "Full Time Lover, Part Time Friend"
 date: "2019-02-24"
 audio: "https://s3.us-east-2.amazonaws.com/outoffocusshow/episodes/001_full-time-lover-part-time-friend.mp3"
+duration: "01:07:06"
 draft: false
 ---
 

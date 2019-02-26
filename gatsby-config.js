@@ -52,6 +52,7 @@ module.exports = {
                     { "itunes:title": edge.node.frontmatter.title },
                     { "itunes:episode": edge.node.frontmatter.episode },
                     { "itunes:episodeType": edge.node.frontmatter.episodeType }
+                    { "itunes:duration": edge.node.frontmatter.duration }
                   ],
                 })
               })
@@ -114,6 +115,7 @@ module.exports = {
                         title
                         episode
                         episodeType
+                        duration
                       }
                     }
                   }
