@@ -5,7 +5,6 @@ import { css } from "@emotion/core"
 import Layout from "../components/layout"
 
 export default ({ data }) => {
-  console.log(data)
   return (
     <Layout>
       <Helmet>

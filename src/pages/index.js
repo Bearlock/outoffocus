@@ -6,7 +6,6 @@ import { Link, graphql } from "gatsby"
 import logo from "../images/logo.jpg"
 
 export default ({ data }) => {
-  console.log(data)
   const latest = data.allMarkdownRemark.edges[0].node;
   return (
     <Layout>
