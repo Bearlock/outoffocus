@@ -28,6 +28,11 @@ export default ({ data }) => {
             : {latest.frontmatter.episodeString}{latest.frontmatter.title}
           </Link>
         </h4>
+        <div css={css`text-align: center`}>
+          <div css={css`display: inline-block`}>
+            <a href='https://playmusic.app.goo.gl/?ibi=com.google.PlayMusic&amp;isi=691797987&amp;ius=googleplaymusic&amp;apn=com.google.android.music&amp;link=https://play.google.com/music/m/Ipxkorsy5uzsfjd2ylcjcosxlxu?t%3DOut_of_Focus%26pcampaignid%3DMKT-na-all-co-pr-mu-pod-16' rel='nofollow'><img width='125px' alt='Listen on Google Play Music' src='https://play.google.com/intl/en_us/badges-music/images/badges/en_badge_web_music.png'/></a>
+          </div>
+        </div>
       </div>
     </Layout>
   )
