@@ -1,6 +1,7 @@
 import React from "react"
 import { css } from "@emotion/core"
 import Layout from "../components/layout"
+import { Helmet } from "react-helmet"
 import { Link, graphql } from "gatsby"
 import logo from "../images/logo.jpg"
 
@@ -9,6 +10,9 @@ export default ({ data }) => {
   const latest = data.allMarkdownRemark.edges[0].node;
   return (
     <Layout>
+      <Helmet>
+        <title>Out of Focus</title>
+      </Helmet>
       <div>
         <img src={ logo } alt="Logo" />
         <h3

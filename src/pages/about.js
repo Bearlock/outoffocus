@@ -1,10 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
+import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 import { css } from "@emotion/core"
 
 export default ({ data }) => (
   <Layout>
+    <Helmet>
+      <title>About Us</title>
+    </Helmet>
     <h1 css={css`color: rebeccapurple; display: inline-block;`}>About {data.site.siteMetadata.title}</h1>
     <h3>Hey!</h3>
     <p>

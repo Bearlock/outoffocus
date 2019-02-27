@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import { css } from "@emotion/core"
+import { Helmet } from "react-helmet"
 import Layout from "../components/layout"
 import ReactAudioPlayer from 'react-audio-player';
 
@@ -12,6 +13,9 @@ export default ({ data }) => {
   }
   return (
     <Layout>
+      <Helmet>
+        <title>{post.frontmatter.title}</title>
+      </Helmet>
       <div>
         <h1 css={css`color: rebeccapurple; display: inline-block`}>{post.frontmatter.episodeString}{" "}{post.frontmatter.title}</h1>
         { audio }
