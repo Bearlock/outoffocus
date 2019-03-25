@@ -19,4 +19,4 @@ Today's episode is about social media and male fashion. Nick is the most photoge
 Let us strut our stuff and talk smack about social media. Check it out, subscribe to our nonsense, and hit us up on [Twitter][twit] and [Instagram][insta] (\@outoffocusshow).
 
 [twit]: https://twitter.com/outoffocusshow
-[insta]: https://instagram.c
+[insta]: https://instagram.com/outoffocusshow
