@@ -3,7 +3,7 @@ episode: 15
 episodeString: ""
 episodeType: "full"
 title: "015 - Porn Palette"
-subtitle: "The one where we talk about personality types"
+subtitle: "The one where we talk about Star Wars"
 date: "2019-04-15"
 audio: "https://s3.us-east-2.amazonaws.com/outoffocusshow/episodes/015_porn-palette.mp3"
 bytes: 61699970
