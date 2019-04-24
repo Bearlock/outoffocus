@@ -1,14 +1,14 @@
 ---
-episode: 17 
+episode: 18
 episodeString: ""
 episodeType: "full"
 title: "018 - Dragon Ball Hardon"
 subtitle: "The one where we talk about retro games and stuff"
 date: "2019-04-24"
 audio: "https://s3.us-east-2.amazonaws.com/outoffocusshow/episodes/018_dragon-ball-hardon.mp3"
-bytes: 58398511
+bytes: 57021335
 mime: "audio/mpeg"
-duration: "01:00:50"
+duration: "0:59:23"
 draft: false
 ---
 
