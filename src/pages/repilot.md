@@ -2,7 +2,7 @@
 episode: 32
 episodeString: "032 - "
 episodeType: "full"
-title: "RePilot"
+title: "032 - RePilot"
 subtitle: "I'm thinking I'm back"
 date: "2020-05-31"
 audio: "https://outoffocusshow.s3.us-east-2.amazonaws.com/episodes/032_RePilot.mp3"
