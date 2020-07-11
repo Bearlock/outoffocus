@@ -4,7 +4,7 @@ episodeString: ""
 episodeType: "full"
 title: "038 - Full Release"
 subtitle: "The one where we talk about stress relief methods, not looking like your native language, and new media interests." 
-date: "2020-07-011"
+date: "2020-07-11"
 audio: "https://outoffocusshow.s3.us-east-2.amazonaws.com/episodes/038_Full-Release.mp3"
 bytes: 56223360
 mime: "audio/mpeg"
