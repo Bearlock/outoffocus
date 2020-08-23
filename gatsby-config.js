@@ -85,7 +85,7 @@ module.exports = {
                     { "itunes:duration": edge.node.frontmatter.duration },
                     { "itunes:image": {
                       _attr: {
-                        href: "https://outoffocusshow.com/podcast_art.jpg"
+                        href: "https://outoffocusshow.com/podcast_art_new.jpg"
                       },
                     }},
                     { "itunes:author": site.siteMetadata.author },
@@ -114,7 +114,7 @@ module.exports = {
                   { "itunes:explicit": "yes" },
                   { "itunes:image": {
                     _attr: {
-                      href: "https://outoffocusshow.com/podcast_art.jpg"
+                      href: "https://outoffocusshow.com/podcast_art_new.jpg"
                     }
                   }},
                   { "itunes:category": {
