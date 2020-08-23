@@ -12,7 +12,7 @@ export default ({ data }) => (
     <h1 css={css`color: rebeccapurple; display: inline-block;`}>About {data.site.siteMetadata.title}</h1>
     <h3>Hey!</h3>
     <p>
-      We're Erick and Nick; a couple of guys who like conversation, jokes, and
+      We're Shamim and Nick; a couple of guys who like conversation, jokes, and
       interesting topics.
     </p>
     <p>
