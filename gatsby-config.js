@@ -107,7 +107,7 @@ module.exports = {
                   { "itunes:subtitle": siteMetadata.subtitle },
                   { "itunes:author": siteMetadata.author },
                   { "itunes:summary": siteMetadata.description },
-                  { "itunes:keywords": "243752" }
+                  { "itunes:keywords": "243752" },
                   { "itunes:owner": [
                     { "itunes:name": "Erick Diaz & Nick Farr" },
                     { "itunes:email": "outoffocusshow@gmail.com" }
