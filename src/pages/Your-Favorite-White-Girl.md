@@ -12,7 +12,7 @@ duration: "01:02:06"
 draft: false
 ---
 
-Video game documentaries and a unique way to approach them. Nick reaches a long term goal, and the stupid ass drinks white people love. 
+Video game documentaries and a unique way to approach them. Nick reaches a long term goal, and the stupid ass drinks white people love. Enjoy the show. 
 Check it out, subscribe to our nonsense, and hit us up on [Twitter][twit], [Instagram][insta] (\@outoffocusshow) and [Patreon][patreon].
 
 [twit]: https://twitter.com/outoffocusshow
