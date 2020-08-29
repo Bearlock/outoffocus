@@ -85,7 +85,7 @@ module.exports = {
                     { "itunes:duration": edge.node.frontmatter.duration },
                     { "itunes:image": {
                       _attr: {
-                        href: "https://outoffocusshow.com/podcast_art.jpg"
+                        href: "https://outoffocusshow.com/podcast_art_new.jpg"
                       },
                     }},
                     { "itunes:author": site.siteMetadata.author },
@@ -97,7 +97,7 @@ module.exports = {
               return {
                 ...siteMetadata,
                 ...rest,
-                copyright: "2019 Out of Focus",
+                copyright: "2020 Out of Focus",
                 language: "en-us",
                 description: siteMetadata.description,
                 categories: ["Comedy", "Careers", "Hobbies"],
@@ -107,6 +107,7 @@ module.exports = {
                   { "itunes:subtitle": siteMetadata.subtitle },
                   { "itunes:author": siteMetadata.author },
                   { "itunes:summary": siteMetadata.description },
+                  { "itunes:keywords": "243752" },
                   { "itunes:owner": [
                     { "itunes:name": "Erick Diaz & Nick Farr" },
                     { "itunes:email": "outoffocusshow@gmail.com" }
@@ -114,7 +115,7 @@ module.exports = {
                   { "itunes:explicit": "yes" },
                   { "itunes:image": {
                     _attr: {
-                      href: "https://outoffocusshow.com/podcast_art.jpg"
+                      href: "https://outoffocusshow.com/podcast_art_new.jpg"
                     }
                   }},
                   { "itunes:category": {
