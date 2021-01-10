@@ -4,7 +4,7 @@ episodeString: ""
 episodeType: "full"
 title: "064 - Hanging Left"
 subtitle: "The one about record-breaking zoom, the shot of all shots, and the boys downstairs." 
-date: "2021-01-02"
+date: "2021-01-10"
 audio: "https://outoffocusshow.s3.us-east-2.amazonaws.com/episodes/064_Hanging-Left.mp3"
 bytes: 57074304
 mime: "audio/mpeg"
