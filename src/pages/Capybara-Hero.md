@@ -2,11 +2,7 @@
 episode: 90
 episodeString: ""
 episodeType: "full"
-<<<<<<< HEAD
 title: "090 - Capybara Hero"
-=======
-title: "090 - Capybara Hero?"
->>>>>>> e17971fb7313ac09437695ada7da49f7e1109427
 subtitle: "The one about golf, comedy shows, movies, and a new hero." 
 date: "2021-09-12"
 audio: "https://outoffocusshow.s3.us-east-2.amazonaws.com/episodes/090_Capybara-Hero.mp3"
